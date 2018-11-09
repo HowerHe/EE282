@@ -14,6 +14,9 @@
    To move the file, use`mv trash trash_bin_2`. You can use `ls` and `cd trash_bin_2` followed by `ls` to confirm your operations.  
    Just use `rm trash` and `ls`.
 
+### Question 1 Comments:
+FYI /$USER will probably almost never exist. if you want the user to go to their home directory, they would do as you have stated or cd $HOME, also you can skip having to cd into trash_bin_2 by just doing ls trash_bin_2/
+Very nicely done.
 
 2. `mymatrix[,1]` can be used to extract the first row of _mymatrix_. To extract the first row of the _mydf_, `mydf[[1]]` can be used. `mydf[1]` can also do the similar thing, but the result is still a dataframe. `mydf[[,1]]` cannot work since it doesn't include a range.
 
@@ -25,3 +28,6 @@ cd my_script
 touch script_1
 chmod 755 script_1
 ```
+
+### Question 3 Comments:
+Very nicely done. I just suggest using 755 instead of 711 to the my_script folder or else users will not be able to list contents or see the contents of that directory, making your script_1 file inaccessible. I also recommend adding .sh to the end of your script filename. It makes it easier to do a quick search of scripts incase you need to find an old script or back them up using find . -name "*.sh" I recommend updating your readme answer to chmod 755 my_script

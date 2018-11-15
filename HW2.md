@@ -20,6 +20,9 @@ Very nicely done.
 
 2. `mymatrix[,1]` can be used to extract the first row of _mymatrix_. To extract the first row of the _mydf_, `mydf[[1]]` can be used. `mydf[1]` can also do the similar thing, but the result is still a dataframe. `mydf[[,1]]` cannot work since it doesn't include a range.
 
+### Question 2 Comments:
+Please re-attempt this question. You are attempting question 2 option 1 with numeric indices. Please ask a question relating two a dataframe and a matrix that both contain the same data. The question should ask how to access the **columns** (not rows as you've said in your answer) using numbers and various types of brackets. Please see the [question again](https://sites.google.com/uci.edu/fundamentals-of-informatics/syllabus/assignments/homeworkforweekofoctober11th).
+
 3. 
 ```
 mkdir my_script
